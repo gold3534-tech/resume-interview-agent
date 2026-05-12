@@ -1,0 +1,11 @@
+python-dotenv
+requests
+fastapi
+uvicorn
+python-multipart
+jinja2
+pypdf
+pydantic
+langchain-anthropic
+langchain-core
+langchain-upstage

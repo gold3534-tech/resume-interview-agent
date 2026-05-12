@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local/private documents
+data/*
+!data/.gitkeep
+*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
