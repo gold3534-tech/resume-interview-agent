@@ -91,7 +91,3 @@ FastAPI 웹앱은 면접 최종 평가가 생성될 때 Slack `chat.postMessage`
 2. 앱을 워크스페이스에 설치한 뒤 `xoxb-...` 형식의 Bot User OAuth Token을 `.env`의 `SLACK_BOT_TOKEN`에 넣습니다.
 3. 알림을 받을 채널에서 `/invite @앱이름`으로 앱을 초대합니다.
 4. 채널 상세 정보 하단에서 `C...`로 시작하는 채널 ID를 확인해 `.env`의 `SLACK_CHANNEL_ID`에 넣습니다.
-
-## 이력서 한 줄 소개 예시
-
-AI 면접 에이전트: 이력서 PDF를 파싱해 지원자 핵심 역량을 추출하고, LLM 기반 기술 면접 질문 생성 및 최종 합불 평가와 Slack 알림을 제공하는 FastAPI 웹 서비스 구현
